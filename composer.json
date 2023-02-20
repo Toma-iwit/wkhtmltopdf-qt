@@ -1,0 +1,17 @@
+{
+    "name": "iwit/wkhtmltopdf",
+    "description": "A composer dependency lib to expose wkhtmltopdf with patched Q.T. binary.",
+    "version": "1.0.0",
+    "type": "library",
+    "require": {
+        "php": ">=8.0"
+    },
+    "authors": [
+        {
+            "name": "Thomas Lamothe",
+            "email": "thomas@iwit-systems.fr"
+        }
+    ],
+    "bin": "bin/wkhtmltopdf-qt"
+}
+
